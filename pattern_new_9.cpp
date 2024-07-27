@@ -3,28 +3,23 @@
 using namespace std; 
 
 int main(){
+    int chr = 'A';
     int row = 1;
-    int clmn =1;
-    int num;
-    int chr;
-    cin>>num;
-
+    int col =1;
+    int num ;
+    cin>> num;
     while(row<=num){
-        chr = 'A';
-        clmn = 1;
-
-        while(clmn<= num){
+        col =1;
+        while(col<=num){
             cout<<char(chr)<<" ";
-            clmn++;
-
-
             chr++;
-            
+            col++;
 
         }
         row++;
         cout<<"\n";
-
     }
+
+
     return 0;
 }

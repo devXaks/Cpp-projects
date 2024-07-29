@@ -6,6 +6,7 @@ int main(){
     int x;
     cin>>x;
     int rev = 0;
+    
     while(x){
         rev*=10;
         rev+= x%10;

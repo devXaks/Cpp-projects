@@ -7,9 +7,7 @@ int main(){
     cin>>x;
     if(x&1==1){
         cout<<"odd";
-
     }
-
     else{
         cout<<"even";
     }

@@ -12,6 +12,6 @@ int main(){
         rev+= x%10;
         x/=10;
     }
-    cout<<rev;
+    cout<<rev; 
     return 0;
 }

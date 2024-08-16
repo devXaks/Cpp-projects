@@ -3,15 +3,15 @@
 using namespace std; 
 
 int main(){
-    int x;
-    cin>>x;
-    if(x&1==1){
-        cout<<"odd";
+   int num1;
+   int num2 = 0;
+   cin>>num1;
+   int ctr = 1;
+   while(num1!=0){
+    num2 = num2*10 + num1%10;
+    num1/=10;
 
-    }
-
-    else{
-        cout<<"odd";
-    }
-    return 0;
+   }
+   cout<<num2;
+   return 0;
 }

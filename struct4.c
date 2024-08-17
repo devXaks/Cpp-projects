@@ -12,7 +12,7 @@ int main(){
     struct Person person1;
     person1.age = 40;
     strcpy(person1.name,"Rajesh");
-    person1.salary = 80000;
+    person1.salary = 90000;
 
     printf("%s",person1.name);    
     return 0;

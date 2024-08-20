@@ -10,6 +10,7 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     }
+    printf("\n\n")
     for(int k = 0;k<row;k++){
         for(int l =0;l<col;l++){
             printf("%d ",arr[k][l]);

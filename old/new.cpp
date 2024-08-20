@@ -2,7 +2,7 @@
 
 using namespace std; 
 
-int main(){
+int main(){     
     cout<<INT16_MIN;
     return 0;
 }

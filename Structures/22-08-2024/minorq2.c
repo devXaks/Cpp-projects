@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main(){
-    printf("%x",-1<<4);
+    printf("%x",5.<<2);
     return 0;
 }

@@ -7,36 +7,42 @@ struct stk{
         
     };
 
-void push_stk(struct stk s0)
+void push_stk(struct stk *s0)
 {
-    if(s0.top == s0.size -1){
-        cout<<"Stack overflow";
+    if(s0->top == s0->size -1){
+        cout<<"Stack overflow"<<endl;
     }
     else{
         int element;
         cout<<"Enter the element ";
         cin>>element;
-        s0.top++;
-        s0.arrptr[top] = element;
+        s0->top++;
+        s0->arrptr[s0->top] = element;
     }
     
 }
 
-// void pop_stk(struct s0){
+void pop_stk(struct stk *s0){
+if(s0->top == -1){
+    cout<<"Noting to pop, stack emepty";
+}
+else{
+    cout<<s0->arrptr[s0->top]<<endl;
+    s0->top--;
+}
 
+}
 
-// }
+void print_stk(struct stk s0){
 
-void print_stk(stuct stk * s0){
-
-    if(s0->top == -1){
-        cout<<"Stack Empty";
+    if(s0.top == -1){
+        cout<<"Stack Empty"<<endl;
         return;
     }
-    // for(int i = 0;i<=s0.top;i++){
-    //     cout<<s0.arrptr[i];
-    // }
-
+    for(int i = 0;i<=s0.top;i++){
+        cout<<s0.arrptr[i]<<" , ";
+    }
+    cout<<endl;
 }
 
 
@@ -60,7 +66,12 @@ int main(){
 
         }
 
+        else if(choice == 1){
+            pop_stk(&s1);
+        }
+
         else if(choice == 2){
+            print_stk(s1);
 
         }
     cout<<"Enter your choice  0 to push , 1 to pop, 2 to print stack";

@@ -2,6 +2,7 @@
 using namespace std;
 
 
+
 struct parentesis{
     char* ptr;
     int top;

@@ -48,7 +48,7 @@ int main(){
     struct parentesis s1;
 
     string s0 = "[4+}2-(3-2){]";
-    // cin
+    
     for(int i = 0;s0[i] !=0 ;i++){
         if(s0[i] == '('||s0[i] == '{'||s0[i] == '[' ){
         push_s0(&s1,s0[i]);

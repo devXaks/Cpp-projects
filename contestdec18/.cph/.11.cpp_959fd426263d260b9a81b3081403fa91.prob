@@ -1,0 +1,1 @@
+{"name":"Local: 11","url":"/home/akshat/Desktop/akshat/Cpp-projects/contestdec18/11.cpp","tests":[{"id":1734619892035,"input":"5\n165\n6369\n666\n114514\n133333332\n","output":"YES\nYES\nNO\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akshat/Desktop/akshat/Cpp-projects/contestdec18/11.cpp","group":"local","local":true}
